@@ -18,6 +18,7 @@ import ConvertForm from './ConvertForm';
 
 export default function Convertor() {
   const [formResult, setFormResult] = useState({});
+  console.log(formResult);
 
   // Initialize the client
   const supadata = new Supadata({
